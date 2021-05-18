@@ -8,6 +8,8 @@ var count_player = 0;
 
 var count_computer = 0;
 
+
+
 function getComputerChoice() {
 
     const randomChoice = (Math.floor(Math.random() * 3));
