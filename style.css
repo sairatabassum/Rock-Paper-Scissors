@@ -36,6 +36,10 @@ body{
      margin-bottom: 2%;
     width: 100px;
 } 
+.exit:hover{
+    background-color: rgb(194, 127, 138);
+    color: rgb(243, 240, 233);
+}
 .Exit{
       
     display: flex;
