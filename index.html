@@ -21,30 +21,30 @@
             <h1>Rock Paper Scissors</h1>
         </div>
 
-        <div class="Exit"><button class="exit">Reset</button> </div>
+        <div class="Exit"><button onclick="start()" class="exit">Reset</button> </div>
 
         <div class="cards">
 
-            <button class="card"><img src="Images/rock.png" alt="Rock">
+            <button class="card" onclick="rock()"><img src="Images/rock.png" alt="Rock">
                 <h3>Rock</h3>
             </button>
 
 
-            <button class="card"><img src="Images/paper.png" alt="Paper">
+            <button class="card" onclick="paper()"><img src="Images/paper.png" alt="Paper">
                 <h3>Paper</h3>
             </button>
 
 
-            <button class="card"><img src="Images/scissors.png" alt="">
+            <button class="card" onclick="scissors()"><img src="Images/scissors.png" alt="">
                 <h3>Scissors</h3>
             </button>
 
         </div>
-        
+
         <div class="table">
-            <table style="width: 40%;">
+            <table style="width: 60%;">
                 <tr>
-                    <th colspan="2">Result</th>
+                    <th colspan="2" id="result" style="color: rgb(231, 67, 67); font-size: 30px;  background-color: rgb(24, 19, 17);">Result</th>
                 </tr>
                 <tr>
                     <th>Player</th>
@@ -52,8 +52,8 @@
                 </tr>
 
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="player">0</td>
+                    <td id="computer">0</td>
                 </tr>
 
 
